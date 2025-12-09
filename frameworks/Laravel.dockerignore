@@ -1,0 +1,47 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# LARAVEL DOCKERIGNORE TEMPLATE
+# ============================================
+# For Laravel projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# LARAVEL SPECIFIC PATTERNS
+# -----------------------------------------
+
+*.sql
+*.sqlite
+.env.example
+.phpunit.result.cache
+bootstrap/cache/
+bootstrap/cache/*.php
+bootstrap/cache/config.php
+bootstrap/cache/packages.php
+bootstrap/cache/services.php
+composer.lock
+composer.phar
+docker-compose.override.yml
+horizon.pid
+mix-manifest.json
+npm-debug.log*
+public/build/
+public/css/
+public/hot
+public/js/
+public/storage
+storage/framework/cache/
+storage/framework/octane/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+storage/logs/octane*
+storage/reverb/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,103 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# WEBSTORM DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding WebStorm specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# WEBSTORM SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+!public/favicon.ico
+!public/robots.txt
+!public/sitemap.xml
+!README.md
+**/*.spec.js
+**/*.spec.ts
+**/*.test.js
+**/*.test.ts
+**/__mocks__/
+**/__tests__/
+*.html
+*.json
+*.map
+*.md
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.astro/
+.azure-pipelines.yml
+.biome/
+.bun/
+.circleci/
+.coverage/
+.eslintcache
+.gatsby/
+.github/
+.gitlab-ci.yml
+.gitlab/
+.idea/.name
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dictionaries
+.idea/dynamic.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.jenkins/
+.next/
+.node_repl_history
+.npm/
+.nuxt/
+.nx/
+.nyc_output/
+.parcel-cache/
+.pnpm-store/
+.prettiercache
+.remix/
+.rollup.cache/
+.rush/
+.svelte-kit/
+.travis.yml
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+bun.lockb
+Dockerfile
+docs/
+npm-debug.log*
+package-lock.json
+pids
+pnpm-debug.log*
+pnpm-lock.yaml
+public/*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

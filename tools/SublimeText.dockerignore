@@ -1,0 +1,46 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# SUBLIMETEXT DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding SublimeText specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# SUBLIMETEXT SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.sublime-auto-save
+*.sublime-build
+*.sublime-color-scheme
+*.sublime-commands
+*.sublime-completions
+*.sublime-keymap
+*.sublime-macro
+*.sublime-menu
+*.sublime-mousemap
+*.sublime-project
+*.sublime-settings
+*.sublime-syntax
+*.sublime-theme
+*.sublime-workspace
+*.sublime_session
+Backups/
+Cache/
+Index/
+Installed Packages/
+Package Control.cache/
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.sublime-settings
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+Packages/
+Preferences.sublime-settings
+User/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

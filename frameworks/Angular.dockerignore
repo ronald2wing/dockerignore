@@ -1,0 +1,46 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# ANGULAR DOCKERIGNORE TEMPLATE
+# ============================================
+# For Angular projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# ANGULAR SPECIFIC PATTERNS
+# -----------------------------------------
+
+*.d.ts
+*.d.ts.map
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.angular-cli.json
+.angular/
+.env.test
+.eslintcache
+.next/
+.node_repl_history
+.npm
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.storybook-out
+.svelte-kit/
+.yarn-integrity
+angular.json
+coverage
+lerna-debug.log*
+logs
+npm-debug.log*
+pids
+storybook-static
+tsconfig.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

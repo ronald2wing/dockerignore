@@ -1,0 +1,60 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# RAILS DOCKERIGNORE TEMPLATE
+# ============================================
+# For Rails projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# RAILS SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!/storage/.keep
+*.gem
+*.rbc
+.byebug_history
+.next/
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.rspec
+.spring
+.storybook-out
+.svelte-kit/
+.yarn-integrity
+/.bundle
+/.config
+/config/credentials.yml.enc
+/config/master.key
+/coverage/
+/InstalledFiles
+/pkg/
+/public/assets
+/public/packs
+/public/packs-test
+/public/system
+/public/uploads
+/spec/examples.txt
+/spec/reports/
+/storage/*
+/test/tmp/
+/test/version_tmp/
+/vendor/bundle
+/vendor/cache
+capybara-*.html
+config/spring.rb
+db/*.sqlite3
+db/*.sqlite3-*
+db/*.sqlite3-journal
+npm-debug.log*
+storybook-static
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,30 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# GO DOCKERIGNORE TEMPLATE
+# ============================================
+# For Go projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# GO SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.out
+*.prof
+*.so
+*.test
+go.sum
+go.work
+go/build/
+go/pkg/mod/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

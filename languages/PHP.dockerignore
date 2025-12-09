@@ -1,0 +1,46 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# PHP DOCKERIGNORE TEMPLATE
+# ============================================
+# For PHP projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# PHP SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.sql
+*.sqlite
+.phpunit.result.cache
+bootstrap/cache/
+composer.lock
+composer.phar
+config.php
+configuration.php
+pub/static/
+public/hot
+public/storage
+sites/*/files/
+sites/*/private/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+var/
+var/cache/
+var/page_cache/
+var/session/
+var/tmp/
+web/bundles/
+wp-content/backup-db/
+wp-content/backup/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,36 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# RUST DOCKERIGNORE TEMPLATE
+# ============================================
+# For Rust projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# RUST SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+**/*.rs.bk
+*.d
+*.dll
+*.dSYM/
+*.exe
+*.o
+*.rlib
+*.so
+.cargo/git/
+.cargo/registry/
+/target/
+/target/debug/build/
+/target/debug/deps/
+/target/doc/
+/target/incremental/
+/target/release/build/
+/target/release/deps/
+/vcpkg/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

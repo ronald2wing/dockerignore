@@ -1,0 +1,86 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# PYTHON DOCKERIGNORE TEMPLATE
+# ============================================
+# For Python projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# PYTHON SPECIFIC PATTERNS
+# -----------------------------------------
+
+*$py.class
+*.cover
+*.egg
+*.egg-info/
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+.coverage.*
+.dmypy.json
+.eggs/
+.hatch/
+.hypothesis/
+.installed.cfg
+.instance/
+.ipynb_checkpoints
+.mypy_cache/
+.nosetests.xml
+.nox/
+.pdm.toml
+.pybuilder/
+.pyenv/
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.ruff_cache/
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.uv/
+.webassets-cache
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+cover/
+coverage.xml
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+downloads/
+eggs/
+env.bak/
+ENV/
+htmlcov/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+MANIFEST
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+Pipfile.lock
+poetry.lock
+profile_default/
+sdist/
+share/python-wheels/
+var/
+venv.bak/
+wheels/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

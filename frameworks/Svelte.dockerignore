@@ -1,0 +1,45 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# SVELTE DOCKERIGNORE TEMPLATE
+# ============================================
+# For Svelte projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# SVELTE SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.d.ts
+*.d.ts.map
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.env.test
+.eslintcache
+.next/
+.node_repl_history
+.npm
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.storybook-out
+.svelte-kit/
+.yarn-integrity
+coverage
+lerna-debug.log*
+logs
+npm-debug.log*
+pids
+storybook-static
+tsconfig.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

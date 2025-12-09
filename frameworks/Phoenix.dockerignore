@@ -1,0 +1,66 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# PHOENIX DOCKERIGNORE TEMPLATE
+# ============================================
+# For Phoenix projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# PHOENIX SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.db
+*.ez
+*.secret.exs
+*.sqlite3
+.credo/
+.elixir_ls/
+.erlang.cookie
+.eunit/
+.mix/
+.plt/
+.plt_*/
+.rebar/
+.rebar3/
+.reltool
+_build/
+_build/dev/rel/
+_build/prod/rel/
+_rel/
+assets/.cache/
+assets/.parcel-cache/
+assets/node_modules/
+config/*.secret.exs
+cover/
+deps/
+dialyzer_ignore.exs
+doc/
+Dockerfile
+docs/
+mix.exs
+mix.exs.bak
+mix.lock
+npm-debug.log*
+package-lock.json
+priv/gettext/
+priv/repo/
+priv/repo/migrations/
+priv/static/
+priv/static/assets/
+priv/static/cache_manifest.json
+priv/static/js/app.js
+priv/static/js/app.js.map
+priv/static/js/presence.js
+priv/static/js/presence.js.map
+priv/static/js/socket.js
+priv/static/js/socket.js.map
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

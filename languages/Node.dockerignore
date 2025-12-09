@@ -1,0 +1,48 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# NODE DOCKERIGNORE TEMPLATE
+# ============================================
+# For Node projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# NODE SPECIFIC PATTERNS
+# -----------------------------------------
+
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.astro/
+.biome/
+.bun/
+.cache
+.eslintcache
+.next/
+.node_repl_history
+.npm/
+.nuxt/
+.nx/
+.parcel-cache
+.pnpm-store/
+.prettiercache
+.remix/
+.rollup.cache
+.rush/
+.svelte-kit/
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+lerna-debug.log*
+npm-debug.log*
+pids/
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,94 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# FLASK DOCKERIGNORE TEMPLATE
+# ============================================
+# For Flask projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# FLASK SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*$py.class
+*.cover
+*.db
+*.egg
+*.egg-info/
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+*.sqlite
+*.sqlite3
+.cache
+.coverage.*
+.dmypy.json
+.eggs/
+.hypothesis/
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.nox/
+.pdm.toml
+.pybuilder/
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.venv
+.webassets-cache
+/site
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+collected_static/
+cover/
+coverage.xml
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+downloads/
+eggs/
+env.bak/
+ENV/
+flask_session/
+htmlcov/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+MANIFEST
+migrations/
+nosetests.xml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+Pipfile.lock
+poetry.lock
+profile_default/
+sdist/
+share/python-wheels/
+staticfiles/
+var/
+venv.bak/
+wheels/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

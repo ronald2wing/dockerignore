@@ -1,0 +1,84 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# ELIXIR DOCKERIGNORE TEMPLATE
+# ============================================
+# For Elixir projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# ELIXIR SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!README.md
+*.md
+.azure-pipelines.yml
+.circleci/
+.credo/
+.dialyzer/
+.dialyzer_ignore
+.elixir_ls/
+.github/
+.gitlab-ci.yml
+.gitlab/
+.jenkins/
+.sobelow/
+.travis.yml
+/*.arangodb
+/*.bigtable
+/*.cassandra
+/*.cockroachdb
+/*.couchdb
+/*.datastore
+/*.db
+/*.dump
+/*.elasticsearch
+/*.ez
+/*.firestore
+/*.influxdb
+/*.kafka
+/*.memcached
+/*.memorystore
+/*.mongo
+/*.mysql
+/*.neo4j
+/*.psql
+/*.rabbitmq
+/*.redis
+/*.rethinkdb
+/*.solr
+/*.spanner
+/*.sqlite
+/*.sqlite3
+/*.tar.gz
+/*.tidb
+/*.timescaledb
+/*.vitess
+/*.yugabytedb
+/_build/
+/assets/css/
+/assets/fonts/
+/assets/images/
+/assets/js/
+/assets/node_modules/
+/assets/vendor/
+/config/*.secret.exs
+/cover/
+/deps/
+/log/
+/mix.lock
+/priv/static/
+/rel/
+/temp/
+/test-output/
+/test-reports/
+/test-results/
+/tmp/
+Dockerfile
+docs/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,62 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# VIM DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding Vim and Neovim specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+# -----------------------------------------
+# VIM SPECIFIC PATTERNS
+# -----------------------------------------
+# Vim swap files
+# Vim backup files
+# Vim undo files
+# Vim session files
+# Vim temporary files
+# Vim view files
+# Vim fold files
+# Vim netrw bookmarks
+# Vim spell files
+# Vim plugin files
+# Neovim specific files
+# Neovim swap files (alternative locations)
+# Neovim undo files (alternative locations)
+# Neovim backup files (alternative locations)
+# Neovim view files (alternative locations)
+# Neovim shada files
+
+
+*.fold
+*.nvim
+*.nviminfo
+*.shada
+*.spl
+*.sug
+*.undo
+*.view
+*.vim
+*.viminfo
+*.vimrc
+.*.undo
+.*.un~
+.netrwhist
+.nvim/
+.nviminfo
+.shada
+.spell/
+.swo
+.swp
+.undo/
+.vim/
+.viminfo
+.vimrc
+backup/
+bundle/
+nvim/
+nviminfo
+pack/
+view/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,46 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# JAVA DOCKERIGNORE TEMPLATE
+# ============================================
+# For Java projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# JAVA SPECIFIC PATTERNS
+# -----------------------------------------
+
+*.class
+*.ctxt
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+.bazel/
+.bazelrc
+.gradle/
+.micronaut/
+.mtj.tmp/
+.mvn/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+bazel-*
+gradle-app.setting
+gradle-wrapper.jar
+hs_err_pid*
+mvnw
+mvnw.cmd
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+spring-boot-devtools.properties
+target/quarkus-app/
+target/quarkus-gen/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

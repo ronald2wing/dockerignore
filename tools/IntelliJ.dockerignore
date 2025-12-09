@@ -1,0 +1,58 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# INTELLIJ DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding IntelliJ specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# INTELLIJ SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+.cxx/
+.externalNativeBuild/
+.gradle/
+.idea/.name
+.idea/artifacts/
+.idea/caches/
+.idea/caches/build_file_checksums.ser
+.idea/codeStyles/
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/compiler.xml
+.idea/copyright/
+.idea/coverage-web/
+.idea/coverage/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dictionaries/
+.idea/dynamic.xml
+.idea/encodings.xml
+.idea/facets/
+.idea/fileTemplates/
+.idea/fileTemplates/internal/
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/inspectionProfiles/Project_Default.xml
+.idea/jarRepositories.xml
+.idea/libraries/
+.idea/maven.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/runConfigurations/
+.idea/scopes/
+.idea/shelf/
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+captures/
+local.properties
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

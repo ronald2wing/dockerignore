@@ -1,0 +1,28 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# SPRINGBOOT DOCKERIGNORE TEMPLATE
+# ============================================
+# For SpringBoot projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# SPRINGBOOT SPECIFIC PATTERNS
+# -----------------------------------------
+
+*.ear
+*.jar
+*.war
+.spring/
+.springBeans
+actuator/
+application-*.properties
+application-*.yaml
+application-*.yml
+config/application-*.properties
+config/application-*.yaml
+config/application-*.yml
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

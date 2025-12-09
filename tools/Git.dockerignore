@@ -1,0 +1,71 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# GIT DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding Git specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# GIT SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+*.huge
+*.large
+.azure/
+.bitbucket/
+.circleci/
+.git-blame-ignore-revs
+.git-crypt/
+.git-rewrite/
+.git/BISECT_LOG
+.git/BISECT_NAMES
+.git/BISECT_START
+.git/BISECT_TERMS
+.git/CHERRY_PICK_HEAD
+.git/config
+.git/description
+.git/HEAD
+.git/hooks/
+.git/index
+.git/info/
+.git/lfs/
+.git/logs/
+.git/logs/refs/
+.git/MERGE_HEAD
+.git/MERGE_MODE
+.git/MERGE_MSG
+.git/objects/
+.git/rebase-apply/
+.git/rebase-merge/
+.git/refs/
+.git/refs/notes/
+.git/refs/stash
+.git/refs/tags/
+.github/
+.github/actions/
+.github/CODEOWNERS
+.github/CONTRIBUTING.md
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+.github/SECURITY.md
+.github/SUPPORT.md
+.github/workflows/
+.github/workflows/*.yaml
+.github/workflows/*.yml
+.gitlab-ci.yml
+.gitlab/
+.gitlab/issue_templates/
+.gitlab/merge_request_templates/
+.gitreview
+.jenkins/
+.travis.yml
+azure-pipelines.yml
+bitbucket-pipelines.yml
+circle.yml
+Jenkinsfile
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

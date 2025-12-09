@@ -1,0 +1,32 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# VSCODE DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding VSCode specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# VSCODE SPECIFIC PATTERNS
+# -----------------------------------------
+
+!.vscode/*.code-snippets
+.vscode/argv.json
+.vscode/coverage/
+.vscode/extension-*
+.vscode/extensions/
+.vscode/history/
+.vscode/logs/
+.vscode/machineid
+.vscode/profiles/
+.vscode/remote-*
+.vscode/remote/
+.vscode/serverdata
+.vscode/snippets/
+.vscode/state.vscdb
+.vscode/test-results/
+.vscode/user-data/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,58 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# VUE DOCKERIGNORE TEMPLATE
+# ============================================
+# For Vue projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# VUE SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.cache
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.grunt
+.lock-wscript
+.next
+.node_repl_history
+.npm
+.nuxt
+.nuxt-prod/
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.storybook-out
+.svelte-kit
+.vuepress/dist
+.yarn-integrity
+bower_components
+build/Release
+coverage
+dist
+npm-debug.log*
+out
+pids
+storybook-static
+typings/
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

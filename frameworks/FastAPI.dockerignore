@@ -1,0 +1,99 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# FASTAPI DOCKERIGNORE TEMPLATE
+# ============================================
+# For FastAPI projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# FASTAPI SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*$py.class
+*.cover
+*.db
+*.egg
+*.egg-info/
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+*.sqlite
+*.sqlite3
+.cache
+.coverage.*
+.dmypy.json
+.eggs/
+.hypothesis/
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.nox/
+.pdm.toml
+.pybuilder/
+.pydantic/
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.venv
+.webassets-cache
+/site
+__pypackages__/
+alembic/versions/
+assets/node_modules/
+celerybeat-schedule
+celerybeat.pid
+cover/
+coverage.xml
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+downloads/
+eggs/
+env.bak/
+ENV/
+fastapi.log
+htmlcov/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+MANIFEST
+migrations/
+nosetests.xml
+openapi.json
+openapi.yaml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+Pipfile.lock
+poetry.lock
+profile_default/
+redoc-static.html
+sdist/
+share/python-wheels/
+uvicorn.log
+var/
+venv.bak/
+wheels/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

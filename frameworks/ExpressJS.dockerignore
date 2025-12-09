@@ -1,0 +1,57 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# EXPRESSJS DOCKERIGNORE TEMPLATE
+# ============================================
+# For ExpressJS projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# EXPRESSJS SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.env.development
+.env.production
+.env.test
+.eslintcache
+.grunt
+.lock-wscript
+.next/
+.node_repl_history
+.npm
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.storybook-out
+.svelte-kit/
+.yarn-integrity
+bower_components
+build/Release
+coverage
+lib-cov
+logs
+npm-debug.log*
+pids
+public/uploads/
+sessions/
+storage/
+storybook-static
+typings/
+uploads/
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

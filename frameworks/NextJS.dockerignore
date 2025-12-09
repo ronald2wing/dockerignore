@@ -1,0 +1,48 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# NEXTJS DOCKERIGNORE TEMPLATE
+# ============================================
+# For NextJS projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# NEXTJS SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*.d.ts
+*.d.ts.map
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.env.test
+.eslintcache
+.next/
+.next/cache/
+.next/standalone/
+.next/telemetry/
+.node_repl_history
+.npm
+.nuxt/
+.out
+.parcel-cache
+.rollup.cache
+.storybook-out
+.svelte-kit/
+.yarn-integrity
+coverage
+lerna-debug.log*
+logs
+npm-debug.log*
+pids
+storybook-static
+tsconfig.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

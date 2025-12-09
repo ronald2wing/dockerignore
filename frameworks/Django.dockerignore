@@ -1,0 +1,29 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# DJANGO DOCKERIGNORE TEMPLATE
+# ============================================
+# For Django projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# DJANGO SPECIFIC PATTERNS
+# -----------------------------------------
+
+!*/migrations/__init__.py
+*/migrations/*.py
+.coverage.*
+.django_cache/
+.env.example
+db.sqlite3
+db.sqlite3-journal
+htmlcov/
+local_settings.py
+media/
+secret_key.txt
+static/
+staticfiles/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,79 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# NESTJS DOCKERIGNORE TEMPLATE
+# ============================================
+# For NestJS projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# NESTJS SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!README.md
+**/*.e2e-spec.ts
+**/*.gql
+**/*.graphql
+**/*.proto
+**/*.spec.ts
+**/*.test.ts
+**/.prettierignore
+**/.prettierrc
+**/eslintrc.js
+**/nest-cli.json
+**/proto/
+**/tsconfig.*.json
+**/tslint.json
+**/ws/
+*.md
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.azure-pipelines.yml
+.biome/
+.bun/
+.cache
+.circleci/
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.github/
+.gitlab-ci.yml
+.gitlab/
+.jenkins/
+.node_repl_history
+.npm/
+.nx/
+.parcel-cache
+.pnpm-store/
+.prettiercache
+.rollup.cache
+.rush/
+.travis.yml
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+bun.lockb
+coverage
+Dockerfile
+docs/
+npm-debug.log*
+package-lock.json
+pids
+pnpm-debug.log*
+pnpm-lock.yaml
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

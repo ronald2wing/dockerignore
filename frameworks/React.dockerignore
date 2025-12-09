@@ -1,0 +1,33 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# REACT DOCKERIGNORE TEMPLATE
+# ============================================
+# For React projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# REACT SPECIFIC PATTERNS
+# -----------------------------------------
+
+.cra/
+.jest/
+.parcel-cache
+.react/
+.storybook-out/
+.storybook/
+.vite/
+.webpack/
+cypress.config.*.timestamp-*
+cypress/
+cypress/screenshots/
+cypress/videos/
+jest.config.*.timestamp-*
+playwright-report/
+storybook-static/
+styleguide/
+vitest.config.*.timestamp-*
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

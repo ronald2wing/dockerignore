@@ -1,0 +1,184 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# GLOBAL DOCKERIGNORE TEMPLATE
+# ============================================
+# This template contains patterns that are generally applicable
+# to most projects regardless of language or framework.
+# Combine this with language or framework-specific templates.
+# ============================================
+# --------------------------
+# OPERATING SYSTEM FILES
+# --------------------------
+
+$RECYCLE.BIN/
+*.lnk
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+desktop.ini
+ehthumbs.db
+Thumbs.db
+# --------------------------
+# IDE AND EDITOR FILES
+# --------------------------
+# Visual Studio Code
+# IntelliJ IDEA
+# Eclipse
+# NetBeans
+# Sublime Text
+# Vim/Emacs
+# Other editors
+
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+*.ids
+*.iml
+*.ipr
+*.iws
+*.kdev4
+*.komodoproject
+*.sublime-*
+*.swo
+*.swp
+*~
+.*.swo
+.*.swp
+.classpath
+.eclipse/
+.idea/
+.project
+.settings/
+.vscode/
+nbactions.xml
+nbproject/
+sublime-*
+# --------------------------
+# VERSION CONTROL
+# --------------------------
+
+.bzr/
+.cvs/
+.git/
+.gitattributes
+.gitignore
+.gitkeep
+.gitmodules
+.hg/
+.svn/
+# --------------------------
+# ENVIRONMENT AND SECURITY
+# --------------------------
+
+
+*.cert
+*.crt
+*.key
+*.pem
+*.priv
+.env
+.env.*
+.secret
+.secrets
+config/local.*
+config/secret.*
+credentials.*
+# --------------------------
+# TEMPORARY AND CACHE FILES
+# --------------------------
+
+
+*.cache
+*.temp
+*.tmp
+.cache/
+.caches/
+temp/
+tmp/
+# --------------------------
+# LOG FILES
+# --------------------------
+
+
+*.log
+*.log.*
+*.pid
+log/
+logs/
+# --------------------------
+# BACKUP AND OLD FILES
+# --------------------------
+
+
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+# --------------------------
+# BUILD ARTIFACTS (GENERIC)
+# --------------------------
+
+
+bin/
+build/
+dist/
+out/
+pkg/
+release/
+releases/
+target/
+# --------------------------
+# DEPENDENCY DIRECTORIES (GENERIC)
+# --------------------------
+
+
+.venv/
+__pycache__/
+bower_components/
+env/
+jspm_packages/
+node_modules/
+vendor/
+venv/
+# --------------------------
+# TEST AND COVERAGE REPORTS
+# --------------------------
+
+
+*.lcov
+.coverage
+.junit/
+.nyc_output
+coverage/
+failsafe-reports/
+surefire-reports/
+test-output/
+test-reports/
+test-results/
+# --------------------------
+# DOCUMENTATION
+# --------------------------
+
+
+_site/
+docs/_build/
+docs/build/
+site/
+# --------------------------
+# DOCKER SPECIFIC
+# --------------------------
+
+
+.docker/
+.dockerignore
+docker-compose.*.yml
+docker-compose.yml
+# ============================================
+# USE AS BASE TEMPLATE - COMBINE WITH LANGUAGE OR FRAMEWORK TEMPLATES
+# ============================================

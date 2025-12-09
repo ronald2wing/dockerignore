@@ -1,0 +1,25 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# DOCKER DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding Docker specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# DOCKER SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+config/
+configuration/
+docs/
+README.md
+test/
+tests/
+volumes/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,104 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# QWIK DOCKERIGNORE TEMPLATE
+# ============================================
+# For Qwik projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# QWIK SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!public/*.avif
+!public/*.ico
+!public/*.jpeg
+!public/*.jpg
+!public/*.png
+!public/*.svg
+!public/*.webp
+!public/favicon.ico
+!public/robots.txt
+!public/sitemap.xml
+!README.md
+!static/favicon.ico
+!static/robots.txt
+**/*.spec.js
+**/*.spec.ts
+**/*.test.js
+**/*.test.ts
+**/__mocks__/
+**/__tests__/
+*.md
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.azure-pipelines.yml
+.biome/
+.bun/
+.circleci/
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.github/
+.gitlab-ci.yml
+.gitlab/
+.jenkins/
+.node_repl_history
+.npm/
+.nx/
+.nyc_output/
+.parcel-cache
+.pnpm-store/
+.prettiercache
+.qwik-city/
+.qwik-components/
+.qwik-insights/
+.qwik-optimizer/
+.qwik-types/
+.qwik/
+.rollup.cache
+.rush/
+.server/
+.travis.yml
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+bun.lockb
+coverage
+Dockerfile
+docs/
+manifest.json
+manifest.webmanifest
+npm-debug.log*
+package-lock.json
+pids
+pnpm-debug.log*
+pnpm-lock.yaml
+public/*
+src/entry.*.js
+src/entry.*.jsx
+src/entry.*.ts
+src/entry.*.tsx
+src/root.*.js
+src/root.*.jsx
+src/root.*.ts
+src/root.*.tsx
+static/*
+sw.js
+workbox-*.js
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

@@ -1,0 +1,47 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# RUBY DOCKERIGNORE TEMPLATE
+# ============================================
+# For Ruby projects.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# RUBY SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!/log/.keep
+!/storage/.keep
+!/tmp/.keep
+!/tmp/pids/
+!/tmp/pids/.keep
+.bundle/
+.byebug_history
+.env.development
+.env.local
+.env.production
+.env.test
+.rbenv-vars
+.ruby-version
+.yarn-integrity
+/.bundle
+/config/credentials.yml.enc
+/config/master.key
+/db/*.sqlite3
+/db/*.sqlite3-*
+/db/*.sqlite3-journal
+/log/*
+/public/assets
+/storage/*
+/tmp/*
+/tmp/pids/*
+Gemfile.lock
+spec/examples.txt
+spring/*.pid
+yarn-error.log
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

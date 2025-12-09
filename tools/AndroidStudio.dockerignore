@@ -1,0 +1,73 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# ANDROIDSTUDIO DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding AndroidStudio specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# ANDROIDSTUDIO SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+*.aab
+*.aar
+*.ap_
+*.apk
+*.class
+*.dex
+*.hprof
+*.jks
+*.keystore
+.cxx/
+.externalNativeBuild
+.gradle/
+.idea/.name
+.idea/assetWizardSettings.xml
+.idea/caches
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dictionaries
+.idea/dynamic.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.navigation/
+captures/
+fastlane/Preview.html
+fastlane/readme.md
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+freeline.py
+freeline/
+freeline_project_description.json
+gen/
+google-services.json
+lint/generated/
+lint/intermediates/
+lint/outputs/
+lint/tmp/
+local.properties
+obj/
+proguard/
+vcs.xml
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

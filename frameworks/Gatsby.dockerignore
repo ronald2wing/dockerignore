@@ -1,0 +1,111 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# GATSBY DOCKERIGNORE TEMPLATE
+# ============================================
+# For Gatsby projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# GATSBY SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!README.md
+**/*.spec.js
+**/*.spec.ts
+**/*.test.js
+**/*.test.ts
+**/__mocks__/
+**/__tests__/
+*.7z
+*.avi
+*.avif
+*.doc
+*.docx
+*.eot
+*.gif
+*.gz
+*.ico
+*.jpeg
+*.jpg
+*.md
+*.mov
+*.mp3
+*.mp4
+*.ogg
+*.otf
+*.pdf
+*.pid.lock
+*.png
+*.ppt
+*.pptx
+*.rar
+*.seed
+*.svg
+*.tar
+*.tgz
+*.tsbuildinfo
+*.ttf
+*.wav
+*.webm
+*.webp
+*.woff
+*.woff2
+*.xls
+*.xlsx
+*.zip
+.azure-pipelines.yml
+.biome/
+.bun/
+.circleci/
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.gatsby-browser.js
+.gatsby-context.js
+.gatsby-node.js
+.gatsby-ssr.js
+.github/
+.gitlab-ci.yml
+.gitlab/
+.jenkins/
+.node_repl_history
+.npm/
+.nx/
+.nyc_output/
+.parcel-cache
+.pnpm-store/
+.prettiercache
+.rollup.cache
+.rush/
+.travis.yml
+.turbo/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+bun.lockb
+coverage
+Dockerfile
+docs/
+npm-debug.log*
+package-lock.json
+pids
+pnpm-debug.log*
+pnpm-lock.yaml
+public/
+src/gatsby-theme-*/
+sw.js
+workbox-*.js
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

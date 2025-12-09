@@ -1,0 +1,93 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# SOLIDJS DOCKERIGNORE TEMPLATE
+# ============================================
+# For SolidJS projects.
+# Combine with Global.dockerignore and Node.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# SOLIDJS SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+!public/*.ico
+!public/*.jpeg
+!public/*.jpg
+!public/*.png
+!public/*.svg
+!public/favicon.ico
+!public/robots.txt
+!public/sitemap.xml
+!README.md
+**/*.spec.js
+**/*.spec.ts
+**/*.test.js
+**/*.test.ts
+**/__mocks__/
+**/__tests__/
+*.md
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+.azure-pipelines.yml
+.biome/
+.bun/
+.cache
+.circleci/
+.client/
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.github/
+.gitlab-ci.yml
+.gitlab/
+.jenkins/
+.netlify/
+.node_repl_history
+.npm/
+.nx/
+.nyc_output/
+.parcel-cache
+.parcel-cache/
+.pnpm-store/
+.prettiercache
+.rollup.cache
+.rush/
+.solid-components/
+.solid-devtools/
+.solid-router/
+.solid-start/
+.solid-store/
+.solid-types/
+.solid/
+.ssr/
+.travis.yml
+.turbo/
+.vercel/
+.vite/
+.yarn-integrity
+.yarn/
+bun-debug.log*
+bun.lockb
+coverage
+Dockerfile
+docs/
+npm-debug.log*
+package-lock.json
+pids
+pnpm-debug.log*
+pnpm-lock.yaml
+public/*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================

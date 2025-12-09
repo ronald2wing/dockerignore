@@ -1,0 +1,110 @@
+# Created by https://dockerignore.com/
+
+# ============================================
+# PYCHARM DOCKERIGNORE TEMPLATE
+# ============================================
+# For excluding PyCharm specific files.
+# Combine with Global.dockerignore for complete coverage.
+# ============================================
+
+# -----------------------------------------
+# PYCHARM SPECIFIC PATTERNS
+# -----------------------------------------
+
+
+
+*$py.class
+*.cover
+*.egg
+*.egg-info/
+*.manifest
+*.mo
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.spec
+.cache
+.coverage.*
+.dmypy.json
+.eggs/
+.hypothesis/
+.idea/.name
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dictionaries
+.idea/dynamic.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/scopes/scope_settings.xml
+.idea/shelf/
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.nox/
+.pdm.toml
+.pybuilder/
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox/
+.venv
+.webassets-cache
+/site
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+cover/
+coverage.xml
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dmypy.json
+downloads/
+eggs/
+env.bak/
+ENV/
+htmlcov/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+MANIFEST
+nosetests.xml
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+profile_default/
+sdist/
+share/python-wheels/
+var/
+venv.bak/
+wheels/
+# ============================================
+# COMBINE WITH GLOBAL.DOCKERIGNORE FOR COMPLETE COVERAGE
+# ============================================
