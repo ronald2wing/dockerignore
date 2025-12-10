@@ -1,0 +1,55 @@
+# Created by https://dockerignore.com/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Go module files
+go.sum
+
+# Go vendor directory
+vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.secrets
+.secret
+.env.*
+.env
+
+# Build output
+bin/
+pkg/
+
+# Profiling output
+*.prof
+
+# Go test cache
+.cache/
+
+# Go modules directory
+go/pkg/mod/
+
+# Go build cache
+go/build/

@@ -1,0 +1,146 @@
+# Created by https://dockerignore.com/
+
+# Spring Boot-specific files
+*.jar
+*.war
+*.ear
+
+# Spring Boot build outputs
+target/
+build/
+out/
+bin/
+
+# Spring Boot application properties
+application-*.properties
+application-*.yml
+application-*.yaml
+
+# Spring Boot environment-specific config
+config/application-*.properties
+config/application-*.yml
+config/application-*.yaml
+
+# Spring Boot DevTools
+.springBeans
+
+# Spring Boot cache
+.spring/
+
+# Spring Boot test reports
+test-output/
+test-results/
+surefire-reports/
+failsafe-reports/
+
+# Spring Boot actuator endpoints (if exposed)
+actuator/
+
+# Java patterns (inherited from Java.dockerignore)
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Build output directories
+target/
+build/
+out/
+bin/
+
+# Gradle
+.gradle/
+gradle-app.setting
+gradle-wrapper.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.eclipse/
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+nbactions.xml
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Dependency directories (if using embedded server with node)
+node_modules/
+
+# Docker Compose files (if using for local development)
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Environment files
+.env
+.env.example
+.env.*
+.secret
+.secrets
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Log directories
+logs/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test results
+test-results/
+test-reports/
+test-output/

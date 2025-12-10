@@ -1,0 +1,115 @@
+# Created by https://dockerignore.com/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*
+!.vscode/*.code-snippets
+
+# VS Code workspace files
+*.code-workspace
+
+# VS Code history
+.vscode/history/
+
+# VS Code snippets
+.vscode/snippets/
+
+# VS Code profiles
+.vscode/profiles/
+
+# VS Code state
+.vscode/state.vscdb
+
+# VS Code logs
+.vscode/logs/
+
+# VS Code extensions
+.vscode/extensions/
+.vscode/extension-*
+
+# VS Code machine specific files
+.vscode/machineid
+.vscode/serverdata
+.vscode/argv.json
+
+# VS Code user data
+.vscode/user-data/
+
+# VS Code remote
+.vscode/remote/
+.vscode/remote-*
+
+# VS Code testing
+.vscode/test-results/
+
+# VS Code coverage
+.vscode/coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store?
+._*
+
+# Other IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.secret
+.secrets
+.env.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+out/
+target/
+bin/
+pkg/
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+# Coverage reports
+coverage/
+.nyc_output
+*.lcov
+
+# Test results
+test-results/
+test-reports/
+test-output/
+
+# Cache directories
+.cache/
+.caches/
+

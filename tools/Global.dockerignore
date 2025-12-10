@@ -1,0 +1,66 @@
+# Created by https://dockerignore.com/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store?
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Log files
+logs/
+*.log
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Environment files
+.env
+.secret
+.secrets
+.env.*
+
+# Cache directories
+.cache/
+.caches/
+
+# Build artifacts
+build/
+dist/
+out/
+target/
+bin/
+pkg/
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+# Coverage reports
+coverage/
+.nyc_output
+*.lcov
+
+# Test results
+test-results/
+test-reports/
+test-output/

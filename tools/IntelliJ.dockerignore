@@ -1,0 +1,159 @@
+# Created by https://dockerignore.com/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# IntelliJ IDEA workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/dynamic.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules/
+.idea/scopes/
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/runConfigurations/
+
+# IntelliJ IDEA cache
+.idea/caches/
+.idea/caches/build_file_checksums.ser
+
+# IntelliJ IDEA coverage
+.idea/coverage/
+.idea/coverage-web/
+
+# IntelliJ IDEA inspections
+.idea/inspectionProfiles/
+.idea/inspectionProfiles/Project_Default.xml
+
+# IntelliJ IDEA file templates
+.idea/fileTemplates/
+.idea/fileTemplates/internal/
+
+# IntelliJ IDEA code style
+.idea/codeStyles/
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+
+# IntelliJ IDEA copyright
+.idea/copyright/
+
+# IntelliJ IDEA run configurations
+.idea/runConfigurations/
+
+# IntelliJ IDEA shelve changes
+.idea/shelf/
+
+# IntelliJ IDEA vcs
+.idea/vcs.xml
+
+# IntelliJ IDEA gradle
+.idea/gradle.xml
+
+# IntelliJ IDEA maven
+.idea/maven.xml
+
+# IntelliJ IDEA artifacts
+.idea/artifacts/
+
+# IntelliJ IDEA facets
+.idea/facets/
+
+# IntelliJ IDEA modules
+.idea/modules.xml
+.idea/modules/
+
+# Android Studio (based on IntelliJ)
+.gradle/
+local.properties
+.cxx/
+.externalNativeBuild/
+build/
+captures/
+*.iml
+*.iws
+*.ipr
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store?
+._*
+
+# Other IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.secret
+.secrets
+.env.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+out/
+target/
+bin/
+pkg/
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+# Coverage reports
+coverage/
+.nyc_output
+*.lcov
+
+# Test results
+test-results/
+test-reports/
+test-output/
+
+# Cache directories
+.cache/
+.caches/
+

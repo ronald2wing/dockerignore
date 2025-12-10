@@ -1,0 +1,66 @@
+# Created by https://dockerignore.com/
+
+# Ignore Dockerfile itself (optional - sometimes you want to include it)
+# To ignore Dockerfile, uncomment the next line:
+# Dockerfile
+
+# Ignore docker-compose files
+docker-compose.yml
+docker-compose.*.yml
+
+# Ignore Docker build context
+.dockerignore
+
+# Ignore Docker build cache
+.cache/
+
+# Ignore Docker volumes
+volumes/
+
+# Ignore Docker logs
+*.log
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test files
+test/
+tests/
+
+# Ignore documentation
+docs/
+README.md
+
+# Ignore configuration files
+.env
+config/
+configuration/
+.env.*
+.secret
+.secrets
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore build artifacts
+build/
+dist/
+out/
+target/
+
+# Ignore package managers
+node_modules/
+vendor/
+bower_components/

@@ -1,0 +1,139 @@
+# Created by https://dockerignore.com/
+
+# Git
+.git/
+.gitattributes
+.gitignore
+.gitmodules
+.gitkeep
+.gitreview
+.git-blame-ignore-revs
+.git-crypt/
+.git-rewrite/
+.git/hooks/
+.git/logs/
+.git/objects/
+.git/refs/
+.git/index
+.git/HEAD
+.git/config
+.git/description
+.git/info/
+.git/objects/
+.git/refs/
+
+# GitHub
+.github/
+.github/workflows/
+.github/actions/
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+.github/CODEOWNERS
+.github/SECURITY.md
+.github/SUPPORT.md
+.github/CONTRIBUTING.md
+
+# GitLab
+.gitlab/
+.gitlab-ci.yml
+.gitlab/merge_request_templates/
+.gitlab/issue_templates/
+
+# Bitbucket
+.bitbucket/
+bitbucket-pipelines.yml
+
+# Azure DevOps
+.azure/
+azure-pipelines.yml
+
+# CircleCI
+.circleci/
+circle.yml
+
+# Travis CI
+.travis.yml
+
+# Jenkins
+Jenkinsfile
+.jenkins/
+
+# GitHub Actions workflow runs
+.github/workflows/*.yaml
+.github/workflows/*.yml
+
+# Git submodules
+.gitmodules
+
+# Git LFS
+.git/lfs/
+
+# Git large files
+*.large
+*.huge
+
+# Git bisect
+.git/BISECT_LOG
+.git/BISECT_NAMES
+.git/BISECT_START
+.git/BISECT_TERMS
+
+# Git cherry-pick
+.git/CHERRY_PICK_HEAD
+.git/MERGE_HEAD
+.git/MERGE_MSG
+.git/MERGE_MODE
+
+# Git rebase
+.git/rebase-apply/
+.git/rebase-merge/
+
+# Git stash
+.git/refs/stash
+
+# Git tags
+.git/refs/tags/
+
+# Git notes
+.git/refs/notes/
+
+# Git reflog
+.git/logs/refs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store?
+._*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.secret
+.secrets
+.env.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+logs/
+*.log
+
