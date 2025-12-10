@@ -1,0 +1,147 @@
+# Created by https://dockerignore.com/
+
+# Build artifacts
+_build/
+deps/
+*.ez
+priv/static/
+priv/static/assets/
+
+# Mix
+.mix/
+mix.lock
+mix.exs
+mix.exs.bak
+
+# Erlang/OTP
+.erlang.cookie
+.rebar3/
+.rebar/
+.eunit/
+.reltool
+
+# Dialyzer
+.plt/
+.plt_*/
+dialyzer_ignore.exs
+
+# Coverage
+cover/
+coverage/
+
+# Documentation
+doc/
+docs/
+
+# Phoenix framework specific
+priv/static/
+priv/gettext/
+priv/repo/
+*.secret.exs
+config/*.secret.exs
+
+# Distillery releases
+_rel/
+_build/prod/rel/
+_build/dev/rel/
+
+# Phoenix assets
+assets/node_modules/
+assets/.cache/
+assets/.parcel-cache/
+
+# Node.js dependencies (for Phoenix projects with assets)
+node_modules/
+assets/node_modules/
+
+# NPM/Yarn files
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Phoenix logs
+log/
+
+# Database
+*.db
+*.sqlite3
+priv/repo/migrations/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*
+.secret
+.secrets
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test results
+test-results/
+test-reports/
+test-output/
+
+# Cache directories
+.cache/
+.caches/
+
+# ElixirLS (Language Server)
+.elixir_ls/
+
+# Credo cache
+.credo/
+
+# Phoenix live reload
+priv/static/js/app.js
+priv/static/js/app.js.map
+
+# Phoenix digest
+priv/static/cache_manifest.json
+
+# Phoenix channels
+priv/static/js/socket.js
+priv/static/js/socket.js.map
+
+# Phoenix presence
+priv/static/js/presence.js
+priv/static/js/presence.js.map
+
+# Build outputs
+_build/
+deps/
+*.ez
+
+# Docker
+Dockerfile
+.dockerignore
+

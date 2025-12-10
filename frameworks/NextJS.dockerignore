@@ -1,0 +1,116 @@
+# Created by https://dockerignore.com/
+
+# Next.js-specific build outputs
+.next/
+out/
+.next/cache/
+
+# Next.js build cache
+.next/cache/
+
+# Next.js telemetry
+.next/telemetry/
+
+# Next.js standalone output
+.next/standalone/
+
+# Node.js patterns (inherited from Node.dockerignore)
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Rollup cache
+.rollup.cache
+
+# SvelteKit build / generate output
+.svelte-kit
+
+# Vite build output
+dist
+
+# TypeScript-specific files
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# TypeScript declaration files
+*.d.ts
+*.d.ts.map
+
+# Temporary folders
+tmp/
+temp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

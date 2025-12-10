@@ -1,0 +1,158 @@
+# Created by https://dockerignore.com/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/public/uploads
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials.yml.enc
+
+# Ignore environment files
+.env
+.env.*
+
+# Rails specific
+log/
+tmp/
+db/*.sqlite3
+db/*.sqlite3-journal
+db/*.sqlite3-*
+/public/system
+/public/assets
+.byebug_history
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/vendor/cache
+
+# Spring
+.spring
+config/spring.rb
+
+# RSpec
+/spec/examples.txt
+
+# Cucumber
+/api/tmp
+/api/log/*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Rollup cache
+.rollup.cache
+
+# SvelteKit build / generate output
+.svelte-kit
+
+# Vite build output
+dist
+
+# Temporary folders
+tmp/
+temp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.secret
+.secrets
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Coverage reports
+coverage/
+.nyc_output
+*.lcov
+
+# Test results
+test-results/
+test-reports/
+test-output/
+
+# Cache directories
+.cache/
+.caches/
+

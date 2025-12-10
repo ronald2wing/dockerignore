@@ -1,0 +1,118 @@
+# Created by https://dockerignore.com/
+
+# Laravel-specific files
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+bootstrap/cache/
+
+# Laravel public storage
+public/storage
+public/hot
+
+# Laravel environment files
+.env
+.env.*
+.env.example
+
+# Laravel artisan command cache
+bootstrap/cache/packages.php
+bootstrap/cache/services.php
+bootstrap/cache/config.php
+
+# Laravel compiled class files
+bootstrap/cache/*.php
+
+# Laravel reverb
+storage/reverb/
+
+# Laravel Horizon
+horizon.pid
+
+# Laravel Octane
+storage/logs/octane*
+storage/framework/octane/
+
+# Laravel Sail
+docker-compose.override.yml
+
+# PHP patterns (inherited from PHP.dockerignore)
+# Dependency directories
+vendor/
+node_modules/
+
+# Composer
+composer.lock
+composer.phar
+
+# Log files
+*.log
+storage/logs/
+
+# Cache files
+storage/framework/cache/
+storage/framework/views/
+bootstrap/cache/
+
+# Session files
+storage/framework/sessions/
+
+# Testing
+.phpunit.result.cache
+coverage/
+
+# Build artifacts
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Database files
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node.js dependencies (if using Laravel Mix)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel Mix build output
+public/js/
+public/css/
+mix-manifest.json
+
+# Vite build output (Laravel 9+)
+public/build/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Temporary folders
+tmp/
+temp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

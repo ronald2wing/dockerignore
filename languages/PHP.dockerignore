@@ -1,0 +1,85 @@
+# Created by https://dockerignore.com/
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Composer
+composer.lock
+composer.phar
+
+# Environment files
+.env
+.env.*
+
+# Log files
+*.log
+storage/logs/
+
+# Cache files
+storage/framework/cache/
+storage/framework/views/
+bootstrap/cache/
+
+# Session files
+storage/framework/sessions/
+
+# Testing
+.phpunit.result.cache
+coverage/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Laravel specific
+public/storage
+public/hot
+
+# Symfony specific
+var/
+web/bundles/
+
+# WordPress specific
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup/
+wp-content/backup-db/
+wp-content/uploads/
+
+# Drupal specific
+sites/*/files/
+sites/*/private/
+
+# Magento specific
+var/cache/
+var/page_cache/
+var/session/
+var/tmp/
+pub/static/
+
+# Build artifacts
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Configuration files
+config.php
+configuration.php
+
+# Database files
+*.sql
+*.sqlite
